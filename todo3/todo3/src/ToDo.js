@@ -30,7 +30,7 @@ const todos = (state=ToDoList, action)=>{
         case EDIT:
             return({
                 ...state,
-                // todos:state.todos.Edit = true,
+                // todos:state.todos.Edit = true, ㄱ
             })
         case REMOVE:
             return({
