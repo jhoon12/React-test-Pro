@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
-function App({onPlus, onMinus, value}) {
+function App({ onPlus, onMinus, value }) {
   return (
     <>
-    <duv>{value}</duv>
+      <duv>{value}</duv>
       <button onClick={onPlus}>+</button>
       <button onClick={onMinus}>-</button>
     </>

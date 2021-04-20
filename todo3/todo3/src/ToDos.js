@@ -17,7 +17,7 @@ const ToDOsInput = ({input,changeInput, insert})=>{
   )
 }
 
-function ToDos({input, todos, changeInput, insert, edit, remove}) {
+const ToDos = ({input, todos, changeInput, insert, edit, remove})=> {
   return (
     <>
       <ToDOsInput input={input} changeInput={changeInput} insert={insert}></ ToDOsInput>

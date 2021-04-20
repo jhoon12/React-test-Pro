@@ -7,8 +7,7 @@ let id = 0;
 
 const ToDoList = {
     input:'sadas',
-    todos:[]
-    
+    todos:[] 
 }
 export const change_input = (input)=>({ type:CHANGE_INPUT, input});
 export const insert = (text)=>({type:INSERT, todo:{id:id++, text, Edit:true}});

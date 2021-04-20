@@ -14,7 +14,6 @@ const ToDoConatainer = () => {
 
   return (
     <>
-      
       <ToDos input={input} todos={todos} changeInput={OnChangeInput} insert={OnInsert} edit={OnEdit} remove={OnRemove}></ToDos>
     </>
   );
